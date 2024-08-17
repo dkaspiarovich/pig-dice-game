@@ -36,16 +36,16 @@ cd pig-dice-game
 
 - Open the index.html file in your browser
   - On Windows:
-```bash
-start index.html
-```
+  ```bash
+  start index.html
+  ```
   - On macOS:
-```bash
-open index.html
-```
+  ```bash
+  open index.html
+  ```
   - On Linux:
-```bash
-xdg-open index.html
-```
+  ```bash
+  xdg-open index.html
+  ```
 
 - Play the game!
