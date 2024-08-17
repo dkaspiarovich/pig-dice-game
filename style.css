@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(91, 52, 117, 1) 19%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.container {
+  max-width: 1000px;
+  height: 637px;
+  overflow: hidden;
+  background-color: rgba(249, 156, 156, 0.366);
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 30px;
+}
+
+/* ---------- PLAYER ---------- */
+
+.section__players {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player {
+  padding: 120px 150px;
+  transition: background-color 0.7s;
+}
+
+.active__player {
+  background-color: #f8edff;
+}
+
+.player--0 {
+  width: 50%;
+  text-align: center;
+}
+
+.player--1 {
+  width: 50%;
+  text-align: center;
+}
+
+.player__name {
+  font-size: 30px;
+  font-weight: 400px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.player__score {
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 100px;
+}
+
+.player__current {
+  background-color: #b9a0ca;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.player__current__text {
+  font-size: 30px;
+}
+
+.player__current__score {
+  font-size: 30px;
+}
+
+/* ---------- BUTTONS ---------- */
+
+button {
+  border: none;
+  text-decoration: none;
+  background: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.btn {
+  width: 120px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(252, 210, 252);
+}
+
+.button__disabled {
+  pointer-events: none;
+  background-color: gray;
+}
+
+.section__buttons {
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.button__new__game {
+  margin-bottom: 40px;
+}
+
+/* ---------- INPUT ---------- */
+
+input {
+  background-color: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.section__input {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.input__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 180px;
+  width: 40%;
+
+  padding: 20px;
+}
+
+.input__title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ---------- IMAGES ---------- */
+
+.image {
+  margin-bottom: 150px;
+}
