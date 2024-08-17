@@ -7,9 +7,9 @@ Players take turns rolling a dice. Each time a player rolls a die they decide to
 
 ## Features
 
-Custom player names: You can personalize your game by setting player names
-Score tracking: Real time score updates
-Simple interface: Interface is easy for everyone to understand
+- Custom player names: You can personalize your game by setting player names
+- Score tracking: Real time score updates
+- Simple interface: Interface is easy for everyone to understand
 
 ## How to play
 
